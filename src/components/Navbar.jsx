@@ -1,5 +1,5 @@
 import React from 'react';
-import { LoginIcon } from '@heroicons/react/solid';  // Import ikon pintu masuk dari Heroicons
+import { LoginIcon } from '@heroicons/react/solid'; 
 
 function Navbar() {
     return (
@@ -22,7 +22,7 @@ function Navbar() {
                 <a href="#" className="hover:text-green-600">About us</a>
             </div>
 
-            {/* Bagian Login sebagai tombol */}
+           
             <div className="text-sm">
                 <a href="#" className="flex items-center space-x-2 px-4 py-2 bg-green-600 text-white rounded-full hover:bg-green-700 transition-all">
                     <LoginIcon className="h-5 w-5" />
